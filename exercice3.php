@@ -16,8 +16,8 @@ public function __construct($name, $surname, $adress){
 }
 
 //DESCTRUCTOR
-// public __destruct($name, $surname, $adress){
-//   $this->
+// public function __destruct(){
+//   $this;
 // }
 
 
