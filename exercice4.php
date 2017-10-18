@@ -35,9 +35,11 @@ public function getForm(){
 
 $formulaire1 = new Form();
 $formulaire1->setText('text');
-$formulaire1->setText('text');
 $formulaire1->setSubmit('submit');
 $formulaire1->getForm();
+$formulaire2 = new Form();
+$formulaire2->setText('text');
+$formulaire2->getForm();
 
 
  ?>
