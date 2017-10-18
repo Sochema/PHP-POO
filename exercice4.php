@@ -3,10 +3,8 @@
 class Form{
 
   private $_form= "<form><fieldset>";
-  // private $_fieldset= "<fieldset>";
-// private $_input= "<input".">";
-private $_submit;
-private $_text;
+  private $_submit;
+  private $_text;
 
 
 public function __construct(){
@@ -37,22 +35,9 @@ public function getForm(){
 
 $formulaire1 = new Form();
 $formulaire1->setText('text');
+$formulaire1->setText('text');
 $formulaire1->setSubmit('submit');
 $formulaire1->getForm();
-// $input= ;
-// $input2= ;
-
-//Idéal = pouvoir dire à la fonction setText que je veux 2 input directement dans la fonction
 
 
  ?>
-
-
-
-
-<!-- <form>
-  <fieldset>
-    <input type="text">
-    <input type="submit">
-  </fieldset>
-</form> -->
